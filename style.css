@@ -1,0 +1,111 @@
+* {
+   margin: 0;     
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    background-color:rgb(13, 218, 218);
+}
+
+.heading > h1{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    padding-top: 15px;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.heading-anchor{
+    float:right;
+    padding: 30px;
+   
+}
+.heading-anchor a {
+    color: yellow;
+    font-size: x-large;
+    margin-right: 40px;
+}
+
+.sign-up-box-container{
+    background-image: url("/run-buddy.img.jpg");
+    padding: 50px;
+    
+}
+
+.sign-up-box{
+    background-color: yellow;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    border: 5px solid navy;
+    padding: 15px;
+    color:navy;
+}
+ .get-started{
+     font-weight:bold;
+ }
+
+
+.form-line{
+    margin-top: 20px;
+    color: navy;
+    
+}
+
+.sign-up-box > p{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.form-line > input[type=text] {
+width: 97%;
+height: 30px;
+color: navy;
+font-weight: bold;
+}
+
+.form-line > label{
+    font-weight: bold;
+}
+
+.get-running{
+    background-color: navy;
+    color: oldlace;
+    padding: 10px;
+}
+
+
+.what-we-do{
+    padding: 50px;
+   
+    
+}
+
+.what-we-do > h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 5px solid yellow;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.what-we-do > p{
+    font-size: 20px;    
+    line-height: 1.5;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    color: teal;
+}
